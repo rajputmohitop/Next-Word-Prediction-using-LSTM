@@ -1,0 +1,16 @@
+name: next-word-pred
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - pip:
+    - tensorflow==2.15.0
+    - tensorboard
+    - streamlit
+    - scikeras
